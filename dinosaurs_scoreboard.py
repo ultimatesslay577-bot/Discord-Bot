@@ -20,7 +20,7 @@ tree = bot.tree
 # ---------------- CONFIG ----------------
 
 SCOREBOARD_FILE = "/data/dinosaurs_scoreboard.json"
-SCOREBOARD_CHANNEL_ID = 1440123400524791921
+SCOREBOARD_CHANNEL_ID = 955234452009799752
 ALLOWED_ROLES = ["admin", "captains"]
 
 scoreboard_message_id = None
@@ -194,3 +194,4 @@ async def reset_scoreboard(interaction: discord.Interaction):
     )
 
 bot.run(os.getenv("DISCORD_TOKEN"))
+
